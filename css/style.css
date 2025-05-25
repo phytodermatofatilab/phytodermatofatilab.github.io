@@ -9,12 +9,12 @@ html {
 }
 
 ::-moz-selection {
-  background-color: #FFFFFF;
+  background-color: #F4591E;
   color: white;
 }
 
 ::selection {
-  background-color: #74d10c;
+  background-color: #F4591E;
   color: white;
 }
 
@@ -27,7 +27,7 @@ body {
   font-family: "Lato", sans-serif;
   font-display: swap;
   font-size: 1rem;
-  color: #74d10c;
+  color: #FEFEFE;
   font-size: 16px;
   background-color: #1A1B1D;
 }
@@ -58,8 +58,8 @@ body {
   right: 5%;
   width: 50px;
   height: 50px;
-  background-color: #74d10c;
-  border: solid 2px #74d10c;
+  background-color: #F4591E;
+  border: solid 2px #F4591E;
   border-radius: 50%;
   cursor: pointer;
   z-index: 3;
@@ -69,7 +69,7 @@ body {
   left: 25%;
   height: 1px;
   transform-origin: left;
-  background-color: #74d10c;
+  background-color: #1A1B1D;
 }
 .menu .line1 {
   top: 35%;
@@ -105,8 +105,8 @@ body {
   right: 5%;
   width: 50px;
   height: 50px;
-  background-color: #FFD700;
-  border: solid 2px #FFD700;
+  background-color: #1A1B1D;
+  border: solid 2px #F4591E;
   border-radius: 50%;
   cursor: pointer;
   transition: all ease-in-out 100ms;
@@ -127,7 +127,7 @@ body {
   transition: all ease-in-out 100ms;
 }
 .ss-menu:hover {
-  background-color: ;
+  background-color: #F4591E;
   transition: all ease-in-out 100ms;
 }
 
@@ -205,15 +205,15 @@ section {
   height: 2px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: ;
+  background-color: #F4591E;
 }
 
 .mainView {
   position: relative;
   min-height: 100vh;
   max-height: 100vh;
-  color: #74d10c;
-  background: url("../img/bcc-free-template-rock-hard.jpg");
+  color: #9fa0ac;
+  background: url("../img/bcc-free-template-rock-hard1.jpg");
   background-size: cover;
   background-position: center;
   background-color: transparent;
@@ -228,8 +228,8 @@ h1 {
   bottom: 20%;
   font-size: 7vh;
   font-weight: 900;
-  color: #74d10c;
-  text-shadow: 0 2px 10px #74d10c;
+  color: #FEFEFE;
+  text-shadow: 0 2px 10px #1A1B1D;
   text-transform: uppercase;
   opacity: 0;
   -webkit-animation: opacity 2s cubic-bezier(0.17, 0.67, 0.14, 0.97) both;
@@ -267,7 +267,7 @@ h2#slogan {
   bottom: 10%;
   font-size: 5vh;
   font-weight: 600;
-  color: #74d10c;
+  color: #F4591E;
   text-shadow: 0 2px 10px #1A1B1D;
   opacity: 0;
   transform: translateY(-45px);
@@ -304,7 +304,7 @@ p {
 }
 
 p.miniPara {
-  color: #74d10c;
+  color: #FEFEFE;
   line-height: 30px;
   margin: 0;
 }
@@ -339,7 +339,7 @@ p.miniPara {
 }
 .imgContent .card p:first-of-type {
   font-size: 1.3rem;
-  color: #74d10c;
+  color: #FEFEFE;
 }
 .imgContent .card::before {
   content: url("../img/instagram-min-white.svg");
@@ -383,7 +383,7 @@ p.miniTitle {
 }
 
 p.pink {
-  color: #74d10c;
+  color: #F4591E;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
@@ -407,8 +407,8 @@ p.pink:hover {
   border-spacing: 0;
 }
 .date table td {
-  border-bottom: solid 1px #74d10c;
-  color: #74d10c;
+  border-bottom: solid 1px #9fa0ac;
+  color: #9fa0ac;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -445,7 +445,7 @@ p.pink:hover {
 }
 
 footer {
-  background-color: #74d10c;
+  background-color: #F4591E;
   min-height: 15vh;
 }
 
@@ -457,7 +457,7 @@ section.blocNewsletter {
   min-height: inherit;
   text-align: center;
   padding: 150px 15%;
-  background: url("../img/background-newsletter.jpg");
+  background: url("../img/background-newsletter1.jpg");
   background-position: 50% 40%;
   background-size: cover;
 }
@@ -471,7 +471,7 @@ form.newsletterForm input {
 }
 form.newsletterForm input[type=email] {
   color: #1A1B1D;
-  border: solid #FFD700 3px;
+  border: solid #1A1B1D 3px;
   width: 50%;
   border-radius: 999px 0 0 999px;
 }
@@ -489,7 +489,7 @@ form.newsletterForm #hideNews input {
 }
 form.newsletterForm input[type=submit] {
   text-transform: uppercase;
-  border: solid #74d10c 3px;
+  border: solid #1A1B1D 3px;
   background-color: white;
   border-radius: 999px;
   margin-left: -25px;
@@ -498,7 +498,7 @@ form.newsletterForm input[type=submit] {
 }
 form.newsletterForm input[type=submit]:hover {
   transition: all 250ms cubic-bezier(0, 0.69, 0.46, 0.95);
-  color: #74d10c;
+  color: #F4591E;
   transform: translateX(5px);
 }
 
@@ -509,7 +509,7 @@ form.newsletterForm input[type=submit]:hover {
   align-items: center;
 }
 .contactForm input, .contactForm textarea {
-  color: #74d10c;
+  color: #1A1B1D;
   padding: 15px;
   width: 70%;
   border: none;
@@ -544,7 +544,7 @@ form.newsletterForm input[type=submit]:hover {
   letter-spacing: 0.8rem;
   transition: all ease-in-out 250ms;
   color: white;
-  background-color: #74d10c;
+  background-color: #F4591E;
 }
 .contactForm .inscriptionCheck {
   display: flex;
@@ -565,27 +565,27 @@ form.newsletterForm input[type=submit]:hover {
 
 .hidePara {
   margin: 0;
-  color: #74d10c;
+  color: #F4591E;
 }
 
 ::-webkit-input-placeholder {
-  color: #74d10c;
+  color: #1A1B1D;
 }
 
 ::-moz-placeholder {
-  color: #74d10c;
+  color: #1A1B1D;
 }
 
 :-ms-input-placeholder {
-  color: #74d10c;
+  color: #1A1B1D;
 }
 
 ::-ms-input-placeholder {
-  color: #74d10c;
+  color: #1A1B1D;
 }
 
 ::placeholder {
-  color: #74d10c;
+  color: #1A1B1D;
 }
 
 footer {
@@ -667,7 +667,7 @@ button[name=backSite] {
   max-width: 250px;
   margin: 25px;
   padding: 10px;
-  background-color: #087601;
+  background-color: #F4591E;
   font-size: 2.5vh;
   font-weight: bolder;
   color: white;
@@ -777,7 +777,7 @@ button[name=backSite] {
   .contactForm input[type=submit]:hover {
     transform: none;
     letter-spacing: 0.2rem;
-    color: #087601;
+    color: #1A1B1D;
     background-color: white;
   }
 
