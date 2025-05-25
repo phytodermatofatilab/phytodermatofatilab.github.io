@@ -59,7 +59,7 @@ body {
   width: 50px;
   height: 50px;
   background-color: #008000;
-  border: solid 2px #008000;
+  border: solid 2px #FFD700;
   border-radius: 50%;
   cursor: pointer;
   z-index: 3;
@@ -106,7 +106,7 @@ body {
   width: 50px;
   height: 50px;
   background-color: #4CAF50;
-  border: solid 2px #4CAF50;
+  border: solid 2px #FFD700;
   border-radius: 50%;
   cursor: pointer;
   transition: all ease-in-out 100ms;
@@ -407,7 +407,7 @@ p.pink:hover {
   border-spacing: 0;
 }
 .date table td {
-  border-bottom: solid 1px #9fa0ac;
+  border-bottom: solid 1px #FFD700;
   color: #9fa0ac;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -471,7 +471,7 @@ form.newsletterForm input {
 }
 form.newsletterForm input[type=email] {
   color: #1A1B1D;
-  border: solid #1A1B1D 3px;
+  border: solid #FFD700 3px;
   width: 50%;
   border-radius: 999px 0 0 999px;
 }
@@ -489,7 +489,7 @@ form.newsletterForm #hideNews input {
 }
 form.newsletterForm input[type=submit] {
   text-transform: uppercase;
-  border: solid #1A1B1D 3px;
+  border: solid #FFD700 3px;
   background-color: white;
   border-radius: 999px;
   margin-left: -25px;
