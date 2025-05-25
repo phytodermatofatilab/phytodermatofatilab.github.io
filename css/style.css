@@ -667,7 +667,7 @@ button[name=backSite] {
   max-width: 250px;
   margin: 25px;
   padding: 10px;
-  background-color: #74d10c;
+  background-color: #087601;
   font-size: 2.5vh;
   font-weight: bolder;
   color: white;
@@ -777,7 +777,7 @@ button[name=backSite] {
   .contactForm input[type=submit]:hover {
     transform: none;
     letter-spacing: 0.2rem;
-    color: #1A1B1D;
+    color: #087601;
     background-color: white;
   }
 
